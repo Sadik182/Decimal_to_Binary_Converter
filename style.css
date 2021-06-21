@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+ width: 650px;
+ background-color: rgb(210, 218, 215);
+ height: 400px;
+ margin-left: 400px;
+ text-align: center;
+}
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#number {
+    width: 96%;
+    position: relative;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#result {
+    width: 97%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 30px;
+    
+}
+
+.btn {
+    padding: 8px;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
